@@ -8,7 +8,7 @@
   </head>
   <body>
     <%- include("../partial/navbar") %>
-    <h1>All Resturaunts</h1>
+    <h1 id="allrest">All Resturaunts</h1>
      <% for(let oneResturant of allResturants){ %>
 
           <a href="/resturaunts/<%=oneResturant.id%>">This is  <%= oneResturant.name %> </a>
